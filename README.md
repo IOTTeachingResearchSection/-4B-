@@ -11,8 +11,8 @@
 	1.树莓派安装错系统，不是openvino可以安装的系统。（如树莓派新的系统（bullseye））
 	解决：安装Raspberry Pi OS (Legacy)版本，此版本为buster。
 	注：openvino支持树莓操作系统为（1）Raspbian Buster，32 位；（2）Raspbian Stretch，32 位
-	曾经安装过buster的版本，但是因为烧了系统后，鼠标键盘无法操作，误认为4b版子无法安装老的buster版本（= .=）；买了个新的版子，再次烧buster系统，可以
-	驱动和操作鼠标和键盘。    ：）
+	曾经安装过buster的版本，但是因为烧了系统后，鼠标键盘无法操作，误认为4b版子无法安装老的buster版本（= .=）；买了个新的版子，
+	再次烧buster系统，可以驱动和操作鼠标和键盘。    ：）
 	
 	2.电脑上openvino的安装：
 	建议在ubuntu下安装，，因为不需要装vis （win需要，软件太大了），openvino的源码，需要c++编译环境。在电脑上装开发工具（development），
@@ -31,7 +31,7 @@
 	
 	以上均可以通过openvino官网找到，还有文档中，但是要有耐心看到底（=。=）。
 	
-																						2022.5.15
+															2022.5.15
 	注：随着openvino的迭代，树莓派的推断可能以后也可以使用IR11的文件。
 
 
